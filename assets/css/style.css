@@ -1,16 +1,41 @@
-
-
-.panel{
-	width: 100%;
-}
-
-.jumbotron{
-	background-color: green;
-	color: #eeeecc;
-	padding-top: 1%;
-	padding-bottom: 2%;
-}
-
-.panel-heading{
-	padding-top: 0.25%;
-}
+body{
+    background-color: white;
+  }
+  .jumbotron{
+    background-color:#efffff;
+    color:black;
+    border:5px grey solid;
+  font: 2em Arial,sans-serif;
+  }
+  .ride{
+    font-size:40px;
+    color:blue;
+  }
+  
+  .panel-body{
+    border:5px grey solid;
+  }
+  .current ,.add{
+    background-color: blue;
+    color:black;
+    font-size:20px;
+  }
+  #trainTable{
+    background-color:#efffff;
+    color:black;
+    font-size:20px;
+    font: bold;
+  }
+  #trainNameInput,#destinationInput,#timeInput,#frequencyInput{
+    color:black;
+    font-size:18px;
+    background-color:#efffff;
+  }
+  .form-group{
+    color: black;
+    font-size:20px;
+  }
+  .btn{
+    background-color: blue;
+    font-size:20px;
+  }
