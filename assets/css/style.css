@@ -1,27 +1,30 @@
 body{
     background-color: white;
+    font-size: 100px;
   }
+
   .jumbotron{
-    background-color:#efffff;
+    background-color: #337ab7;
     color:black;
-    border:5px grey solid;
-  font: 2em Arial,sans-serif;
+    border: black;
+    font-size: 90px;
+    font-weight: bold;
   }
   .ride{
-    font-size:40px;
-    color:blue;
+    font-size:80px;
+    color: black;
   }
   
   .panel-body{
-    border:5px grey solid;
+    border:10px black;
   }
   .current ,.add{
-    background-color: blue;
+    background-color: #337ab7;
     color:black;
     font-size:20px;
   }
   #trainTable{
-    background-color:#efffff;
+    background-color: white;
     color:black;
     font-size:20px;
     font: bold;
@@ -36,6 +39,6 @@ body{
     font-size:20px;
   }
   .btn{
-    background-color: blue;
+    background-color: #337ab7;
     font-size:20px;
   }
